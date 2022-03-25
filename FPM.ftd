@@ -1,7 +1,7 @@
 -- import: fpm
 
--- fpm.package: fifthtry.github.io/<change-this>
-zip: github.com/fifthtry/<change-this>/archive/refs/heads/main.zip
+-- fpm.package: fifthtry.github.io/cdoc-doc
+zip: github.com/fifthtry/cdoc-doc/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/Forest-Theme
 
