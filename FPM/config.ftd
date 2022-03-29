@@ -12,6 +12,8 @@ $processor$: toc
 $processor$: toc
 
 - Flow: flow/
+  - Permissions: permissions/
+  - Three Approvals: approvals/
 - Github UI: github-ui/
   - PR Description: pr-description/
   - Race Condition: race-condition/
