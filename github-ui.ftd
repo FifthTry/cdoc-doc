@@ -20,9 +20,7 @@ width: fill
 
 We will have a check named "cdoc" which will show up here, like we currently see
 "Rust Checks / Rust Checks (pull_request)". It will show passing or failing
-message, along with "Details".
-
-We will explore if "Details" link can directly to {pr-status.page}.
+message. We will explore if "Details" link can directly to {pr-status.page}.
 
 -- ft.h1: Status Summary
 

@@ -5,9 +5,9 @@
 `cdoc` works with two repositories, a repository for code and another for
 documentation.
 
-The documentation repository will only have things that are already implemented
-and deployed in the main branch. All upcoming changes, requirements etc would be
-kept in Pull Requests.
+The main branch of documentation repository will only have things that are
+already implemented and deployed. All upcoming changes, requirements etc would
+be kept in Pull Requests.
 
 A change only goes from PR once it is done and deployed.
 
@@ -16,9 +16,9 @@ A change only goes from PR once it is done and deployed.
 
 -- ft.h1: Requirement Approval
 
-Ideally, before work starts, equirements should be written and approved by
-respective stakeholders, e.g. design team, QA team, developers, business
-stakeholders etc.
+Ideally, before work starts, requirements should be written and approved by
+respective stakeholders, e.g. design/engineering/QA team, business stakeholders
+etc.
 
 Requirement PRs are approved on Github PR UI of the documentation repository.
 
@@ -32,8 +32,8 @@ This is the first aprpoval. At this point developers can start work.
 
 Once requirement PR is ready, development can begin, and when code is ready
 the code itself must be approved by the engineering team. At this point the
-meaning of approval is this code is as per our code standards, does not
-introduce security issues, and is good enough to go to production.
+meaning of approval is that this code is as per our code standards, does not
+introduce security issues, etc and is good enough to go to production.
 
 Code PRs are approved on Github PR UI for the code repository.
 
@@ -44,24 +44,20 @@ Code PRs are approved on Github PR UI for the code repository.
 -- ft.h1: `cdoc` Approval
 
 At this point we have a approved requirement PR, and a corresponding code PR.
-Now someone has to visit {pr-status.page}, or in the PR Description UI or Last
+Now someone has to visit {pr-status.page}, or the PR Description UI or Last
 Comment UI they will see a button to approve the PR.
 
 Code approval means code is as per acceptable standards. Which implicitly can
 mean that someone has reviewed the docs and approved it. But it's not obvious
-when someone is giving approval that they are approving just the code or they
-are certifying that yes, code is good and is exactly as per docs, the entire
+when someone is giving approval that **they are approving just the code or they
+are certifying that yes, code is good and is exactly as per docs, and the entire
 requirement has been implemented with zero deviations and things are ready to
-proceed.
+proceed**.
 
 In many setups, the product manager, and QA team can do this approval. In fact
-for this aprpoval we do not even need to be able to read code, just the
+for this aprpoval we do not even need to be able to read code at all, just the
 behaviour of the software on the user acceptance testing environment matches
-perfectly with the requirements.
-
-This explicit step that yes, I have verified that requirements and behaviour is
-exactly the same, that yes I am aware of the documentation standard for our
-company and I am certifying that this change has meets those standards.
+perfectly with the requirements in the docs PR.
 
 
 
@@ -87,21 +83,21 @@ not be able to fully trust the documentation.
 
 
 
--- ft.h2: What About PRs With No Documentation Need, Like A Bug Fix?
+-- ft.h2: What About PRs With No Documentation Need, Like A Bug Fix/Hot Fix?
 
 The decision that a PR needs no documentation itself is a decision that someone
 has to take, and stand behind.
 
 In such cases people can visit the {pr-status.page}, and instead of connecting
 the repository, declare that this PR does not need documentation. Once this
-is done a record would be made on the PR about who authorised this PR without
+is done a comment would be posted on the PR about who authorised this PR without
 documentation, and the PR checks would turn green, and PR would be ready to
 merge.
 
 
 
--- ft.h2: What Happens When A PR Partially Implements Requirements?
+-- ft.h2: What Happens When A PR Only Partially Implements Requirements?
 
 If the entire requirement is not met, a new requirement PR should be created
-which only talks about the stuff that is implemented.
+which only talks about the stuff that is actually implemented.
 
