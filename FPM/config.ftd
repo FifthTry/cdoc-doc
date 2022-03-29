@@ -1,0 +1,20 @@
+-- import: ft
+
+-- ft.github: https://github.com/fifthtry/cdoc/
+-- ft.site-url: index.html
+
+-- ft.header-toc:
+$processor$: toc
+
+- Github: https://github.com/fifthtry/cdoc/
+
+-- ft.toc:
+$processor$: toc
+
+- Flow: flow/
+- Github UI: github-ui/
+  - PR Description: pr-description/
+  - Race Condition: race-condition/
+  - Last Comment UI: last-comment/
+- PR Status Page: pages/pr-status/
+- PR States: pr-states/

@@ -30,7 +30,7 @@ FifthTry](https://github.com/apps/continuous-documentation).
 -- ft.h2: Self Hosted `cdoc`
 
 Install `codc` on Heroku following `cdoc` self hosting guide. {ft.highlight:
-create guide and link to it}
+create guide and link to it}.
 
 -- ft.h1: PR Work Flow
 
