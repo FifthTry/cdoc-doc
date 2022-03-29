@@ -1,0 +1,34 @@
+-- string doc-url: pages/pr-status/
+-- string name: PR Status Page
+
+-- ft.page-with-toc: $name
+
+-- ft.markdown:
+
+This page exists for every PR in a repository connected with `cdoc`.
+
+-- ft.h1: URL
+
+URL: <cdoc-base-url>/<repo-name>/<pr-number>.
+
+-- ft.h2: `cdoc-base-url`
+
+For hosted `cdoc` this would be `gh.fifthtry.com` (and `gl.fifthtry.com` in
+future when we support Gitlab and so on). For self-hosted cdoc it would be the
+domain where it is hosted.
+
+-- ft.h2: `repo-name`, `pr-number`
+
+`repo-name`, eg `FifthTry/fpm` and `pr-number` identy the pull request.
+
+-- ft.h1: Design
+
+/-- ft.image:
+src: @assets.files.images.pr-status-page.png
+
+-- ft.h1: Data
+
+TODO
+
+-- ftd.text page: $name
+link: $doc-url
