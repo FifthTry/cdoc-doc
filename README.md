@@ -9,7 +9,7 @@ the code PR can be merged.
 
 This site is powered by documentation repository for `cdoc`,
 [github.com/FifthTry/cdoc-doc](https://github.com/FifthTry/cdoc-doc), and
-`cdoc` code itself is at [github.com/FifthTry/cdoc](https://github.com/FifthTry/cdoc).
+`cdoc` code is at [github.com/FifthTry/cdoc](https://github.com/FifthTry/cdoc).
 
 If you are reading it on Github README, the rendered site is at
-[FifthTry.github.io/cdoc-doc](https://FifthTry.github.io/cdoc-doc).
+[FifthTry.github.io/cdoc-doc/](https://FifthTry.github.io/cdoc-doc/).
