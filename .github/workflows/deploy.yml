@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
     - '**.ftd'
+    - '**.md'
   workflow_dispatch:
 env:
   CARGO_TERM_COLOR: always
