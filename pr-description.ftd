@@ -15,3 +15,6 @@ will change over time, we will put a marker in the PR description body, and
 anything after that marker would be assumed to be our content, and we would
 keep overwriting the content.
 
+This can cause [two race conditions](race-conditions/), which if we can not
+mitigate we will not use pull request description approach, and fall back to
+[last comment approach](last-comment/).
