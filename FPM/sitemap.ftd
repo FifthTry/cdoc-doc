@@ -1,0 +1,34 @@
+-- url: /<repo-name>/<pr-number>/
+file: pr.ftd
+
+
+-- pr.ftd file --
+
+
+-- string repo-name:
+$processor$: fpm.get
+name: repo-name
+
+-- string pr-number:
+$processor$: fpm.get
+
+
+-- record data:
+string account-name:
+string account-url:
+string repo-name:
+string repo-url:
+string pr-number:
+string pr-title:
+string pr-body:
+string pr-url:
+optional string query:
+result list result:
+
+
+-- data data:
+$processor$: dj.fetch-pr-data
+repo-name: $repo-name
+pr-number: $pr-number
+
+
