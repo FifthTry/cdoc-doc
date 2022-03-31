@@ -1,5 +1,5 @@
--- string doc-url: pages/pr-status/
--- string name: PR Status Page
+-- string doc-url: pages/pr/
+-- string name: PR Page
 
 -- ft.page-with-toc: $name
 
