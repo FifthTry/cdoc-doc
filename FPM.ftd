@@ -3,7 +3,8 @@
 -- fpm.package: fifthtry.github.io/cdoc-doc
 zip: github.com/fifthtry/cdoc-doc/archive/refs/heads/main.zip
 
--- fpm.dependency: fifthtry.github.io/Forest-Theme
+-- fpm.dependency: fifthtry.github.io/Forest-Theme as ft
 
--- fpm.auto-import: fifthtry.github.io/Forest-Theme as ft
+-- fpm.auto-import: ft
+-- fpm.auto-import: fifthtry.github.io/cdoc-doc/FPM/config
 -- fpm.auto-import: fifthtry.github.io/cdoc-doc/assets

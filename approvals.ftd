@@ -1,4 +1,4 @@
--- import: fifthtry.github.io/cdoc-doc/pages/pr-status
+-- import: fifthtry.github.io/cdoc-doc/pages/pr
 
 -- ft.page-with-toc: Approvals When Using `cdoc`
 
@@ -44,8 +44,8 @@ Code PRs are approved on Github PR UI for the code repository.
 -- ft.h1: `cdoc` Approval
 
 At this point we have a approved requirement PR, and a corresponding code PR.
-Now someone has to visit {pr-status.page}, or the PR Description UI or Last
-Comment UI they will see a button to approve the PR.
+Now someone has to visit {pr.page}, or the PR Description UI or Last Comment UI
+they will see a button to approve the PR.
 
 Code approval means code is as per acceptable standards. Which implicitly can
 mean that someone has reviewed the docs and approved it. But it's not obvious

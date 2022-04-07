@@ -18,5 +18,7 @@ $processor$: toc
   - PR Description: pr-description/
   - Race Condition: race-condition/
   - Last Comment UI: last-comment/
-- PR Status Page: pages/pr-status/
 - PR States: pr-states/
+- Pages:
+  - PR Page: pages/pr/
+  - Repo Page: pages/repo/

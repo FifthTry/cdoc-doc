@@ -5,6 +5,7 @@ Request:
 
 -- ft.image: Pull Request Description
 src: $assets.files.images.pr.png
+width: fill
 
 The content of the description is editable using the Github's [Update a pull
 request](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
