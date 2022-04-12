@@ -1,11 +1,14 @@
 -- import: ft
 
 -- ft.github: https://github.com/fifthtry/cdoc/
--- ft.site-url: index.html
 
 -- ft.header-toc:
 $processor$: toc
 
+- Why CDOC?: why/
+- User Manual
+- Documentation Framework
+- Development: development/
 - Github: https://github.com/fifthtry/cdoc/
 
 -- ft.toc:
@@ -22,3 +25,32 @@ $processor$: toc
 - Pages:
   - PR Page: pages/pr/
   - Repo Page: pages/repo/
+
+
+-- fpm.toc-item list user-manual:
+$processor$: toc
+
+- product
+- self hosting
+
+-- fpm.toc-item list development:
+$processor$: toc
+
+- engineering
+- contributing
+
+-- fpm.toc-item list why-toc:
+$processor$: toc
+
+- Why `CDOC`?: why/
+- Document Drive Development
+- Documentation ROI
+- Improving Developer Onboarding
+- Remote Work Needs Better Documentation
+
+
+-- fpm.toc-item list why-header:
+$processor$: toc
+
+- Overview: why/
+- Alternatives
