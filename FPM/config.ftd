@@ -8,7 +8,7 @@ $processor$: toc
 - Why CDOC?: why/
 - User Manual
 - Documentation Framework
-- Development: development/
+- Development: dev/
 - Github: https://github.com/fifthtry/cdoc/
 
 -- ft.toc:
@@ -25,6 +25,7 @@ $processor$: toc
 - Pages:
   - PR Page: pages/pr/
   - Repo Page: pages/repo/
+  - `ftd` Page: pages/ftd/
 
 
 -- fpm.toc-item list user-manual:
@@ -36,8 +37,8 @@ $processor$: toc
 -- fpm.toc-item list development:
 $processor$: toc
 
-- engineering
-- contributing
+- Overview: dev/
+- FTD Templates: dev/ftd/
 
 -- fpm.toc-item list why-toc:
 $processor$: toc
