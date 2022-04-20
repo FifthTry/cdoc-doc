@@ -2,7 +2,7 @@
 
 -- ft.github: https://github.com/fifthtry/cdoc/
 
--- ft.header-toc:
+-- ft.sections:
 $processor$: toc
 
 - Why CDOC?: why/
