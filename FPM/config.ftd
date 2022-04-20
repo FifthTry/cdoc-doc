@@ -39,6 +39,7 @@ $processor$: toc
 
 - Overview: dev/
 - FTD Templates: dev/ftd/
+- Using `ftd_django.static()`: dev/static/
 
 -- fpm.toc-item list why-toc:
 $processor$: toc
