@@ -71,9 +71,16 @@ $processor$: toc
 -- fpm.toc-item list user-manual-header:
 $processor$: toc
 
-- Overview: overview/
-- Why?
-- Features
+- Overview: user-manual/
+- Features: user-manual/features/
 - Journeys
-- Pages, Actions and APIs
-- Learning | How To
+- Pages, Actions and APIs: user-manual/pages/
+- Learning | How To: user-manual/how-to/
+
+
+-- fpm.toc-item list user-manual-pages-toc:
+$processor$: toc
+
+- Login: user-manual/pages/login/
+- Dashboard: user-manual/pages/dashboard/
+- Repo: user-manual/pages/repo/

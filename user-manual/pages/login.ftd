@@ -1,0 +1,5 @@
+-- ft.page-with-toc: Login Page
+toc: $config.user-manual-pages-toc
+sub-sections: $config.user-manual-header
+
+Login Page
