@@ -1,4 +1,4 @@
--- ft.page-with-toc: Login Page
+-- ft.page-with-toc: Pull Request Approval Dialog
 toc: $config.user-manual-pages-toc
 sub-sections: $config.user-manual-header
 
