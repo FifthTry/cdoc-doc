@@ -58,7 +58,7 @@ $processor$: toc
 - Alternatives
 
 
--- fpm.toc-item list user-manual-toc:
+-- fpm.toc-item list user-manual-overview-toc:
 $processor$: toc
 
 - Why `CDOC`?: why/
@@ -67,3 +67,13 @@ $processor$: toc
 - Improving Developer Onboarding
 - Remote Work Needs Better Documentation
 
+
+-- fpm.toc-item list user-manual-header:
+$processor$: toc
+
+- Overview: overview/
+- Why?
+- Features
+- Journeys
+- Pages, Actions and APIs
+- Learning | How To
