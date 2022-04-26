@@ -6,7 +6,7 @@
 $processor$: toc
 
 - Why CDOC?: why/
-- User Manual
+- User Manual: user-manual/
 - Documentation Framework
 - Development: dev/
 - Github: https://github.com/fifthtry/cdoc/
@@ -56,3 +56,14 @@ $processor$: toc
 
 - Overview: why/
 - Alternatives
+
+
+-- fpm.toc-item list user-manual-toc:
+$processor$: toc
+
+- Why `CDOC`?: why/
+- Document Drive Development
+- Documentation ROI
+- Improving Developer Onboarding
+- Remote Work Needs Better Documentation
+
