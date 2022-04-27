@@ -10,6 +10,9 @@ for an explicit approval.
 In case the user approves the PR without the documentation PR attached, we move 
 the PR to the "manual approved" state.
 
--- ft.h2: Jobs
+-- ft.h2: Design
 
-- Invoke the job to synchronize the Github check run with the system's state
+-- ft.image: 
+src: $assets.files.images.product-manual.routes.pages.approve-connected-pr-dialog.png
+width: fill
+caption: "#1: Approve Code pull request with an associated documentation PR"

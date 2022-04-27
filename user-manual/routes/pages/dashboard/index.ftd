@@ -16,10 +16,11 @@ the results.
 
 -- ft.h2: URL and Parameters
 
-URL: `/` for an authenticated User
+URL: `/`
+For the unauthenticated user, refer to login page
 
 Parameters:
-- q:
+- `q`:
   
   Description: Search query
   
@@ -30,6 +31,7 @@ Parameters:
 
 -- ft.h3: Constraints
 
+- The page is accessible only to authenticated users
 - The search query is case insensitive.
 - The search query can be a substring of the repository name.
 - The page displays at 10 results in each category. We currently don't support 

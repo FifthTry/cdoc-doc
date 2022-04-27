@@ -16,10 +16,14 @@ You can also approve the PR directly without associating a documentation PR. Thi
 action can be taken by clicking on the link below the available documentation PR
 list.
 
--- ft.h2: Workflow
+-- ft.h2: Design
 
-TODO: Add screenshots here
+-- ft.image: 
+src: $assets.files.images.product-manual.routes.pages.attach-documentation-pr-dialog.png
+width: fill
+caption: "#1: Attach Documentation Pull Request Dialog"
 
--- ft.h2: Jobs
-
-- Invoke the job to synchronize the Github check run with the system's state
+-- ft.image: 
+src: $assets.files.images.product-manual.routes.pages.approve-unconnected-pr-dialog.png
+width: fill
+caption: "#2: Approve Code pull request without documentation PR"
