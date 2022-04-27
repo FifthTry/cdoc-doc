@@ -7,7 +7,6 @@ $processor$: toc
 
 - Why CDOC?: why/
 - User Manual: user-manual/
-- Documentation Framework
 - Development: dev/
 - Github: https://github.com/fifthtry/cdoc/
 
@@ -40,6 +39,21 @@ $processor$: toc
 - Overview: dev/
 - FTD Templates: dev/ftd/
 - Using `ftd_django.static()`: dev/static/
+- Data Models: dev/models/
+  - App Models: dev/models/app
+    - GithubUser Model: dev/models/app/githubuser
+    - GithubUserAccessToken Model: dev/models/app/githubuseraccesstoken
+    - GithubUserRefreshToken Model: dev/models/app/githubuserrefreshtoken
+    - GithubAppInstallation Model: dev/models/app/githubappinstallation
+    - GithubAppUser Model: dev/models/app/githubappuser
+    - GithubInstallationToken Model: dev/models/app/githubinstallationtoken
+    - GithubRepository Model: dev/models/app/githubrepository
+    - GithubRepoMap Model: dev/models/app/githubrepomap
+    - GithubPullRequest Model: dev/models/app/githubpullreques
+    - MonitoredPullRequest Model: dev/models/app/monitoredpullreques
+    - PrApproval Model: dev/models/app/prapproval
+    - GithubCheckRun Model: dev/models/app/githubcheckrun
+    - GithubLoginState Model: dev/models/app/githubloginstate  
 
 -- fpm.toc-item list why-toc:
 $processor$: toc
