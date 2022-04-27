@@ -38,3 +38,9 @@ be in one of the following states:
 
 - The search query is case insensitive.
 - The search query can be a substring of the repository name.
+
+-- ft.h2: Design
+
+-- ft.image: 
+src: $assets.files.images.product-manual.routes.pages.repository-page.png
+width: fill

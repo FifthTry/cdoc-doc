@@ -82,10 +82,10 @@ $processor$: toc
 $processor$: toc
 
 - Pages: user-manual/routes/pages/
-  - Dashboard: user-manual/routes/pages/dashboard/
-  - Repo: user-manual/routes/pages/repo/
+  - Dashboard Page: user-manual/routes/pages/dashboard/
+  - Repository Page: user-manual/routes/pages/repo/
+  - Login Page: user-manual/routes/pages/login/
 - Widgets: user-manual/routes/widgets/
-  - Login Dialog: user-manual/routes/widgets/login/
   - Repo Mapping Dialog: user-manual/routes/widgets/repo-mapping-dialog/
   - PR Mapping Dialog: user-manual/routes/widgets/pr-mapping-dialog/
   - PR Approval Dialog: user-manual/routes/widgets/pr-approval-dialog/
