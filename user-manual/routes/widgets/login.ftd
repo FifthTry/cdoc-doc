@@ -2,4 +2,37 @@
 toc: $config.user-manual-pages-toc
 sub-sections: $config.user-manual-header
 
-Login Page
+The login widget is used to log in to the system. You can login via Github.
+The login widget redirects the user to the GitHub OAuth2 login page from where 
+the user can authenticate and authorize the access to the repositories.
+
+
+-- ft.code:
+lang: yml
+
+
+URL: /
+Parameters:
+- next:
+  Description: Post login redirect URL
+  Required: False
+  Type: string
+
+
+-- ft.h2: Workflow
+
+We generate a unique identifier for the session which is used to identify the
+user once they return from the Github OAuth2 login workflow.
+
+Post login, the user is redirected to the system where the system synchronizes
+various attributes associated with the user.
+
+- Organizations
+- Repositories
+- Generating the user tokens to be used for commenting on the Pull Requests
+
+-- ft.h3: Constraints
+
+- Right now only GitHub is the allowed means of authentication.
+- An Admin user can access the django admin panel by creating a user through the
+  command line.
