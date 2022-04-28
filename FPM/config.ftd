@@ -105,3 +105,6 @@ $processor$: toc
 - Widgets: user-manual/routes/widgets/
 - Actions: user-manual/routes/actions/
 - APIs: user-manual/routes/apis/
+- Notifications: user-manual/routes/notifications/
+  - Documentation Attached Notification: user-manual/routes/notifications/documentation-attached-notification/
+  - PR Approval Notification: user-manual/routes/notifications/pull-request-approved-notification/
