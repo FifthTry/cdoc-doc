@@ -104,6 +104,9 @@ $processor$: toc
     - PR Approval Dialog: user-manual/routes/pages/repo/pr-approval-dialog/
 - Widgets: user-manual/routes/widgets/
 - Actions: user-manual/routes/actions/
+  - Repo Connection Dialog: user-manual/routes/pages/dashboard/repo-connection-dialog/
+  - PR Mapping Dialog: user-manual/routes/pages/repo/pr-mapping-dialog/
+  - PR Approval Dialog: user-manual/routes/pages/repo/pr-approval-dialog/
 - APIs: user-manual/routes/apis/
 - Notifications: user-manual/routes/notifications/
   - Documentation Attached Notification: user-manual/routes/notifications/documentation-attached-notification/
